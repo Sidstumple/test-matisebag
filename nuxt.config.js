@@ -13,6 +13,13 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+	/*
+	** Global CSS
+	*/
+	css: [{
+		src: '~assets/scss/app.scss',
+		lang: 'scss'
+	}],
   /*
   ** Customize the progress bar color
   */
