@@ -13,6 +13,12 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+	plugins: [
+		{
+			src: '~/plugins/dynamic-components.js',
+			ssr: false
+		}
+	],
   /*
   ** Customize the progress bar color
   */

@@ -2,9 +2,7 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h1 class="title">
-        test-matisebag
-      </h1>
+			<type-writer heading="Hoi" sub="heee"></type-writer>
       <h2 class="subtitle">
         Test omgeving voor de matise bag
       </h2>
