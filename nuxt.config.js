@@ -41,5 +41,11 @@ module.exports = {
         })
       }
     }
-  }
+  },
+	plugins: [
+	{
+		src: '~/plugins/dynamic-components.js',
+		ssr: false
+	}
+]
 }
